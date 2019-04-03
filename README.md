@@ -1,5 +1,7 @@
 # semver_constraints
 
+[![Build Status](https://travis-ci.com/elba/semver-constraints.svg?branch=master)](https://travis-ci.com/elba/semver-constraints)
+
 ...because I don't like `semver::VersionReq`.
 
 ## Usage
