@@ -1166,4 +1166,3 @@ mod tests {
         assert_eq!(ce, c1.difference(&c2));
     }
 }
-

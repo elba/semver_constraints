@@ -1,0 +1,17 @@
+language: rust
+cache: cargo
+
+matrix:
+  include:
+  - rust: stable
+    script:
+    - cargo test
+  - rust: beta
+    script:
+    - cargo test
+  - rust: nightly
+    script:
+    - cargo test
+
+allow_failures:
+  - rust: nightly
